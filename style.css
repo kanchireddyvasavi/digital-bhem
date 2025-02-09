@@ -1,4 +1,24 @@
 #style.css
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(9,9,121,1) 35%,rgba(0,212,212)) ;
+    box-sizing: border-box;
+}
+.calculator {
+    margin-bottom: 20px;
+    width: 100px;
+     
+    display:flex;
+    justify-content: center;
+}
+.calculator{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 20px black,5px 5px 5px black;
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +41,13 @@ body {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.calculator {
+    margin-bottom: 20px;
+    width: 260px;
+    display:contents;
+    justify-content: center;
+}
+ 
 
 .display {
     width: 100%;
@@ -57,6 +84,7 @@ button:hover {
 button:active {
     background-color: #bbb;
 }
+
 
 
  
